@@ -1,0 +1,240 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.container{width:1170px;
+margin: auto;
+}
+
+a{text-decoration: none;}
+ol,ul{list-style: none;}
+
+.row{display: flex;
+    flex-wrap:wrap;
+}
+
+body{ font-family: 'Open Sans', sans-serif;}
+
+.heading{
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+}
+    
+.heading p{
+    font-size: 16px;
+    color: #7e8287;
+}
+
+
+
+
+
+/* nav start */
+nav  { background-color: #02918c;}
+
+nav .row{align-items: center;}
+
+nav .logo{width: 50%;}
+nav .menu{width: 50%;
+text-align:right;}
+
+nav .menu li a{ font-weight: 800;
+color: #ffffff;
+font-size: 12px;
+text-transform: uppercase;
+padding: 26px 25px;
+display: block;
+text-align: right;
+}
+/* nav end */
+/* banner start */
+#banner{
+    background-image:url(../image/bg-img.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-contant{width: 100%;
+text-align: center;
+
+}
+.banner-contant h3{font-size: 30px; 
+    color: #ffffff;
+    font-weight: 400;
+}
+.banner-contant h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    color: #ffffff;
+}
+.banner-contant p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.banner-contant img {margin: 52px 0;}
+
+.banner-contant a { 
+    background-color: #cfc91d;
+    font-size: 16px;
+    color: black;
+    padding: 19px 42px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+#banner .row{align-items: center;
+    height: 728px;}
+
+
+    /* about section start */
+
+
+#about{
+padding: 98px 0;
+}
+#about .heading{text-align: center;
+    padding-bottom: 76px;
+}
+
+#about .font{
+color: #7e8287;
+text-align: center;}
+#about h5{
+    font-size: 16px;
+padding-bottom: 25px;
+font-weight: 400;}
+#about h4{
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+#about h6{font-size: 16px;
+font-weight: 400;
+padding-bottom: 120px;}
+
+
+#about span{ font-size: 23px;
+font-weight: 800;}
+
+#about .box{width: 25%;
+text-align: center;
+padding: 0px 60px;}
+
+#about .box h2{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+#about .box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+#about .box img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+    /* about section ends */
+    /* <!-- services section strt --> */
+#services{ 
+        background-image: url(../image/bd3.jpg);
+        height: 730px;
+        padding-left: 15px
+    }
+#services .
+ 
+    #services .heading{text-align: left;
+    padding-top: 72px;
+;}
+#services .heading p{padding-left: 30px;
+text-align: left;}
+
+#services .para p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+}
+#services .box{width: 50%;
+margin-top: 60px;}
+#services .box img{ width: 40px;
+height: 40px;}
+
+#services .box h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+#services .box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+}
+
+/* <!-- my work section --> */
+
+#mywork .heading { padding-top: 110px;
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 70px;
+}
+#mywork h4{font-size: 16px;
+    text-align: center;
+font-weight: 400;
+padding-bottom: 80px;}
+
+#mywork .box{
+    padding-bottom: 100px;
+}
+
+
+/* <!-- my work section --> */
+/* contact me */
+#contact .heading{
+    text-align: center;
+    padding-bottom: 70px;
+    
+}
+#contact h4{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 80px
+    ;
+}
+
+
+/* contact me */
+
+.ending{
+    background-image: url(../image/bb.jpg);
+    height: 634px;
+}
+.ending h2{
+    color: #7e8287;
+    text-align: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 70px;
+}
+
+ #end a{
+    background-color: #cfc91d;
+    font-size: 16px;
+    color: black;
+    padding: 19px 42px;
+    font-weight: 800;
+    display: inline-block;
+
+ }
+ #end .button{text-align: center;
+padding-top: 66px;}
